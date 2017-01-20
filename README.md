@@ -31,7 +31,7 @@ Add this dependency to your `pom.xml`:
  
 ##Usage
 
-*Please see the `/SignaturePad-Example` app for a more detailed code example of how to use the library.*
+*Please see the `/SignatureSample-app` app for a more detailed code example of how to use the library.*
 
 1. Add the `SignaturePad` view to the layout you want to show.
 ```xml
