@@ -39,7 +39,6 @@ Add this dependency to your `pom.xml`:
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/signatureView"
-        android:layout_below="@id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@android:color/white"
