@@ -17,14 +17,14 @@ ext {
 
     publishedGroupId = 'com.ksk.marujolla.signature-pad'
     libraryName = 'SignaturePad'
-    artifact = 'signature-pad'
+    artifact = 'SignaturePad'
 
     libraryDescription = 'A signature view to capture and save as image on Android'
 
     siteUrl = 'https://github.com/sivakartik/SignatureSample'
     gitUrl = 'https://github.com/sivakartik/SignatureSample.git'
 
-    libraryVersion = '0.10'
+    libraryVersion = '0.11'
 
     developerId = 'sivakartik'
     developerName = 'Koteswara Shiva Kartik Marujolla'
@@ -37,7 +37,7 @@ ext {
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.0"
+    buildToolsVersion "25.0.2"
 
     defaultConfig {
         minSdkVersion 14
@@ -61,7 +61,7 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:25.1.0'
+    compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
 }
 
